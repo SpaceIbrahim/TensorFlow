@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# from tensorflow import feature_column as fc
-# import tensorflow as tf
+from tensorflow import feature_column as fc
+import tensorflow as tf
 
 # Load dataset.
 dftrain = pd.read_csv('Dataset/train.csv') # training data
